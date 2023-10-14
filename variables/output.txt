@@ -1,1 +1,1 @@
-Welcome to C Programming!
+This code block executes because isTrue is true.
