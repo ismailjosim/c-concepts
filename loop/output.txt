@@ -1,17 +1,5 @@
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-This is From For Loop!
-210
+0
+1
+2
+3
+4
