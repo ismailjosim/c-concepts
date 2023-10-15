@@ -14,3 +14,13 @@ int main()
 
     return 0;
 }
+/*
+take out the value of 10
+
+we know, 8 bit = 1 byte
+
+
+
+0 0 0 0 0 0 0 0 0
+2n
+*/
