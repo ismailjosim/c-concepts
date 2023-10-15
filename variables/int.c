@@ -2,8 +2,8 @@
 
 int main()
 {
-    int x = 12345;    // ***(32bits) int hold values in the range of approximately -2 billion to +2 billion.
-    short y = -12345; // ***(16bit)  smaller range compared to int. hold value -32,768 to +32,767 (5 digit) +-
+    int x = 12345;    // *** (32bits) int hold values in the range of approximately -2 billion to +2 billion.
+    short y = -12345; // *** (16bit)  smaller range compared to int. hold value -32,768 to +32,767 (5 digit) +-
     // ? All support same print data type method
     // printf("%d", y);
 
@@ -15,3 +15,13 @@ int main()
 
     return 0;
 }
+
+/*
+1gb = 1024mb;
+
+1mb = 1024kb;
+
+1kb = 1024byte;
+
+1 byte = 8 bit;
+*/
