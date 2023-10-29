@@ -1,11 +1,51 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
     char a[100], b[100];
     scanf("%s %s", a, b);
-    int i = 0;
+
+    // * method: 01: using while loop
+    /*
+      // int i = 0;
     while (1)
+     {
+         if (a[i] == '\0' && b[i] == '\0')
+         {
+             printf("Same\n");
+             break;
+         }
+         else if (a[i] == '\0')
+         {
+             printf("B is Greater The A!");
+             break;
+         }
+         else if (b[i] == '\0')
+         {
+             printf("A is Greater The B!");
+             break;
+         }
+
+         if (a[i] == b[i])
+         {
+             i++;
+         }
+         else if (a[i] < b[i])
+         {
+             printf("A is Smaller");
+             break;
+         }
+         else
+         {
+             printf("B is Smaller");
+             break;
+         }
+     }
+     */
+    // * method: 02: using for loop
+    /*
+    for (int i = 0; a[i] != '\0' || b[i] != '\0'; i++)
     {
         if (a[i] == '\0' && b[i] == '\0')
         {
@@ -14,29 +54,44 @@ int main()
         }
         else if (a[i] == '\0')
         {
-            printf("B is Greater The A!");
+            printf("B is Greater Than A!\n");
             break;
         }
         else if (b[i] == '\0')
         {
-            printf("A is Greater The B!");
+            printf("A is Greater Than B!\n");
             break;
         }
 
         if (a[i] == b[i])
         {
-            i++;
+            // Characters are the same; continue to the next character.
         }
         else if (a[i] < b[i])
         {
-            printf("A is Smaller");
+            printf("A is Smaller\n");
             break;
         }
         else
         {
-            printf("B is Smaller");
+            printf("B is Smaller\n");
             break;
         }
+    }
+*/
+    // * method: 02: using built in function (strcmp)
+    int v = strcmp(a, b);
+    if (v < 0)
+    {
+        printf("B is Bigger\n");
+    }
+    else if (v > 0)
+    {
+        printf("A is Bigger\n");
+    }
+    else
+    {
+        printf("Same\n");
     }
 
     return 0;
