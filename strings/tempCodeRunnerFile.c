@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
-int main()
-{
     // char a[100];
     // scanf("%s", a);
     // int count = 0;
@@ -20,12 +15,3 @@ int main()
     //     count++;
     // }
     // printf("%d\n", count);
-
-    // string method
-    char b[100];
-    scanf("%s", b);
-    int st = strlen(b);
-    printf("The value of b is %d\n", st);
-
-    return 0;
-}

@@ -1,2 +1,1 @@
-The value of a is 12
-34
+The value of b is 11
