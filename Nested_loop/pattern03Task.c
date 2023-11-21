@@ -2,19 +2,17 @@
 
 int main()
 {
-    int n, k = 1;
+    int n, k;
     scanf("%d", &n);
+    k = n;
     for (int i = 1; i <= n; i++)
     {
-        // 1: this is the work
         for (int j = 1; j <= k; j++)
         {
-            printf("I");
+            printf("%d ", j);
         }
-        // 2: it will increase the value of k.
-        k++;
+        k--;
         printf("\n");
     }
-
     return 0;
 }
